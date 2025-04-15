@@ -62,6 +62,14 @@ The `figma-developer-mcp` server can be configured by adding the following to yo
 
 > NOTE: You will need to create a Figma access token to use this server. Instructions on how to create a Figma API access token can be found [here](https://help.figma.com/hc/en-us/articles/8085703771159-Manage-personal-access-tokens).
 
+### Installing via Smithery
+
+To install figma-context-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@adexdsamson/figma-context-mcp):
+
+```bash
+npx -y @smithery/cli install @adexdsamson/figma-context-mcp --client claude
+```
+
 ### MacOS / Linux
 
 ```json
